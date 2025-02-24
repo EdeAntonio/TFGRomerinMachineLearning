@@ -15,7 +15,7 @@ El objetivo siempre va a ser maximizar la recompensa. Para ello deberemos tener 
 ## Estructura.
 La estructura de un sistema de aprendizaje por refuerzo se puede describir con dos elementos, el ecosistema y el agente. El agente realiza acciones sobre el ecosistema, observa su estado y recibe recompensas de él.
 
-![EstructuraAR](ImagenesRelevantes/EstructuradelAR.png)
+![EstructuraAR](../ImagenesRelevantes/EstructuradelAR.png)
 
 ## Estado
 Dentro del AR hay dos conceptos importantes, la historia y el estado.
