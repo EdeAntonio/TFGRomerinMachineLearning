@@ -16,7 +16,7 @@ En manger based utilizamos clases para crear manejadores de los observadores, de
 ### Direct
 Una única clase implementa las recompensas, las observaciones etc. Los usuarios tienen la libertad de implementar sus tareas a través de APIs de envs.DirectRLEnv o envs.DirectMARLEnv. La ventaja de este sistema es que se define explicitamente el ecosistema en vez de indirectamente mediante clases
 
-![EsquemaManager-based](ImagenesRelevantes/EsquemaDirect.png)
+![EsquemaDirect](ImagenesRelevantes/EsquemaDirect.png)
 
 ## Actuadores
 Los sistemas aticulados se conforman de articulaciones accionadas que resultan en grados de libertad. En las simulaciones se podrán controlar estas actuaciones por posición velocidad o par. En velocidad y posición se calcula el par mediante un PD mientras que en par se utiliza el dato directamente.

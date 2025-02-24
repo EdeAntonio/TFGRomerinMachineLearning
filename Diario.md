@@ -6,4 +6,6 @@
     - Task Desing Workflow
     - Actuadores
     - Sensores: Concepto General
-    - Clase 1, curso David Silver
+- Clase 1, curso David Silver
+### Lunes 24
+- Apuntes clase 1, curso David Silver.
