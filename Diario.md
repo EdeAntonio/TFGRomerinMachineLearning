@@ -9,3 +9,6 @@
 - Clase 1, curso David Silver
 ### Lunes 24
 - Apuntes clase 1, curso David Silver.
+### Martes 25
+- Clase 2, curso David Silver
+- Apuntes Clase 2, curso David Silver I
