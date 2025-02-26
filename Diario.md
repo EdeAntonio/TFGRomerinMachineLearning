@@ -11,4 +11,6 @@
 - Apuntes clase 1, curso David Silver.
 ### Martes 25
 - Clase 2, curso David Silver
-- Apuntes Clase 2, curso David Silver I
+- Apuntes Clase 2, curso David Silver 1/2
+### Miércoles 26
+- Apuntes Clase 2, curso David Silver 2/2
