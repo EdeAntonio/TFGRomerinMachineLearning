@@ -14,3 +14,6 @@
 - Apuntes Clase 2, curso David Silver 1/2
 ### Miércoles 26
 - Apuntes Clase 2, curso David Silver 2/2
+## Marzo 2025
+### Lunes 3
+- Clase 3, curso David Silver
