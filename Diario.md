@@ -17,3 +17,5 @@
 ## Marzo 2025
 ### Lunes 3
 - Clase 3, curso David Silver
+### Martes 4
+- Clase 3, apuntes curso David Silver
