@@ -19,3 +19,8 @@
 - Clase 3, curso David Silver
 ### Martes 4
 - Clase 3, apuntes curso David Silver
+### Viernes 7
+- Instalación y puesta en marcha del puesto en CAR
+### Lunes 10
+- Tutoriales 00
+- Comienzo Tutoriales 01

@@ -6,6 +6,9 @@
 - [ ] Revisar Actuadores en marcador TFG
 - [ ] Estudiar Librerias y ver cual se adapta mejor:
         Respuesta: 
+- [ ] Tutoriales
+## Tutoriales
+- [ ] Ver vídeo acerca de iluminacion [video](https://youtu.be/c7qyI8pZvF4?feature=shared)
 # Creacion Modelo Romerin
 - [ ] Crear archivo URDF
 # Ventosa
