@@ -24,3 +24,6 @@
 ### Lunes 10
 - Tutoriales 00
 - Comienzo Tutoriales 01
+### Miércoles 12
+- Tutoriales 01
+- Tutoriales 02
