@@ -27,3 +27,5 @@
 ### Miércoles 12
 - Tutoriales 01
 - Tutoriales 02
+### Jueves 13
+- Tutoriales 03: Manager Based
