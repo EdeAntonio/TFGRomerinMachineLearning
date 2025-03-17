@@ -29,3 +29,5 @@
 - Tutoriales 02
 ### Jueves 13
 - Tutoriales 03: Manager Based
+### Lunes 17
+-Tutoriales 03: Direct, comienzo Registro.
