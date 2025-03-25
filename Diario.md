@@ -30,6 +30,9 @@
 ### Jueves 13
 - Tutoriales 03: Manager Based
 ### Lunes 17
--Tutoriales 03: Direct, comienzo Registro.
+- Tutoriales 03: Direct, comienzo Registro.
 ### Miércoles 19
--Lectura 4, Curso David Silver: Visionado y Apuntes. Faltaría repasar Forward and Backward
+- Lectura 4, Curso David Silver: Visionado y Apuntes. Faltaría repasar Forward and Backward
+### Jueves 20
+- Primera reunión romerín
+- Valoración cambio TFG a Metatool

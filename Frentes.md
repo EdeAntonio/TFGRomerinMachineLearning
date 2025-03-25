@@ -2,18 +2,23 @@
 - [ ] Curso David Silver
 # Entender IsaacLab
 - [ ] Concepto general para empezar a programar
-## Tareas
+### Tareas
 - [ ] Revisar Actuadores en marcador TFG
 - [ ] Estudiar Librerias y ver cual se adapta mejor:
-        Respuesta: 
+        Respuesta: SKRL o RL-Games, se valoraran ambas.
 - [ ] Tutoriales
-## Tutoriales
+- [ ] [Tutorial Pytorch](https://pytorch.org/tutorials/beginner/basics/intro)
+### Tutoriales
 - [ ] Ver vídeo acerca de iluminacion [video](https://youtu.be/c7qyI8pZvF4?feature=shared)
-# Creacion Modelo Romerin
+
+# Metatool OP 1
+
+# Romerín OP 2
+## Creacion Modelo Romerin
 - [ ] Crear archivo URDF
-# Ventosa
+## Ventosa
 - [ ] Crear actuador para la ventosa
-# Simulación
+## Simulación
 - [ ] Obtener simulación funcional
-# Aplicación
+## Aplicación
 - [ ] Obtener modelo aplicable
