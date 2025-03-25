@@ -36,3 +36,8 @@
 ### Jueves 20
 - Primera reunión romerín
 - Valoración cambio TFG a Metatool
+### Lunes 24
+- Leer documentación proyecto Metatool
+### Martes 25
+- Tutorial T05: No importante
+- Lectura del repositorio de Metatool. Idea General.
