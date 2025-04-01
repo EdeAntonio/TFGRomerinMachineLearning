@@ -41,3 +41,9 @@
 ### Martes 25
 - Tutorial T05: No importante
 - Lectura del repositorio de Metatool. Idea General.
+### Jueves 25
+- Reunión 02: Objetivo principal, analizar el entorno ant de issaclab.
+## Abril 2025
+### Martes 1
+- Estudio Contenedor Docker
+- Primer vistazo al entorno ant.

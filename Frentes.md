@@ -1,6 +1,6 @@
-# Entender RL
+## Entender RL
 - [ ] Curso David Silver
-# Entender IsaacLab
+## Entender IsaacLab
 - [ ] Concepto general para empezar a programar
 ### Tareas
 - [ ] Revisar Actuadores en marcador TFG
@@ -11,14 +11,17 @@
 ### Tutoriales
 - [ ] Ver vídeo acerca de iluminacion [video](https://youtu.be/c7qyI8pZvF4?feature=shared)
 
-# Metatool OP 1
+## Analisis de Ant
+- [ ] Realizar analisis del entorno de la araña.
 
-# Romerín OP 2
-## Creacion Modelo Romerin
+## Metatool OP 1
+
+## Romerín OP 2
+### Creacion Modelo Romerin
 - [ ] Crear archivo URDF
-## Ventosa
+### Ventosa
 - [ ] Crear actuador para la ventosa
-## Simulación
+### Simulación
 - [ ] Obtener simulación funcional
-## Aplicación
+### Aplicación
 - [ ] Obtener modelo aplicable
