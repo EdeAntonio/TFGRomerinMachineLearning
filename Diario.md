@@ -47,3 +47,12 @@
 ### Martes 1
 - Estudio Contenedor Docker
 - Primer vistazo al entorno ant.
+### Jueves 3
+- Reunión Labo: Centrado en Docker
+### Lunes 7
+- David Silver: Lectura 5, Pendiente apuntes
+### Martes 8
+- Documentación Docker: Apuntes
+### Jueves 9
+- Reunión Labo: Sim-ToReal, buscar referencias y aplicaciones reales. Profundizar Docker.
+
