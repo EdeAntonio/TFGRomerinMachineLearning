@@ -58,4 +58,6 @@
 ### Martes 22 
 - Comienzo de estudio acerca del ejemplo de Ant. Me quedo en la definición de la articulación cfg en la parte de spawn
 - Mañana comenzaremos con el desarrollo de algunas actividades, dando por finalizada la fase de asentamiento de bases de IsaacLab. Se pasa ahora a la fase de análisis y desarrollo. Se continuará con algún trabajo de base mas teórico acerca de RL con el Curso de DS.
+### Miercoles 23
+- Estudio de Franka Lift: Dependencias, objetos, recompensas, etc.
 
