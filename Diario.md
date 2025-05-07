@@ -67,3 +67,6 @@
 - Finalización configuración específica araña. Próximo paso, locomoción (acciones, recompensas, definición objetivos). Pendiente de actualizar en el repo
 ### Martes 6
 - Estudio Problema 1 y ejecución código. Continuar con depuración de recompensas.
+### Miercoles 7
+- Problema 1 probado y funcional.
+- Inicio análisis locomoción.

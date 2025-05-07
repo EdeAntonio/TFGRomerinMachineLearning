@@ -14,3 +14,11 @@ Al realizar la simulación en mi ordenador no se detecto el fallo que cancelaba 
 Se debe confirmar con investigador que el problema sea de su ordenador y grabar el resultado para futuras aportaciones.
 
 Se debe resolver los tres problemas propuestos sin perjudicar el funcionamiento actual.
+
+### Empuje
+
+Para encontrar el problema por el cual se activa la recompensa de empuje sin empujar o tener un contacto válido comenzmos a realizar un debugging.
+
+El debugging se centrará en la definición de la función con la cual se valora la recompensa, la cual se encuentra dentro de la carpeta mdp. 
+
+Encontramos que no esta definida la función Squeeze.
