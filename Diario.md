@@ -70,3 +70,6 @@
 ### Miercoles 7
 - Problema 1 probado y funcional.
 - Inicio análisis locomoción.
+
+### Miércoles 14
+- Parcheado del problema del pulling.

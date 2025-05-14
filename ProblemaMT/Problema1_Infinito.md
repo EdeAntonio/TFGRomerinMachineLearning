@@ -5,9 +5,7 @@ Para entrar a valorar donde esta el problema miraremos en los sensores de contac
 Los archivos problemáticos son la task para el Robohabilis push object.
 
 Al realizar la simulación en mi ordenador no se detecto el fallo que cancelaba la simulación, sin embargo se detectaron posibles ámbitos de mejora.
-- El robot arrastra la herramienta. Se podría eliminar poniendo como condición que la herramienta este levantada para empujar o reajustando los pesos.
 - Se detecta que la recompensa del empuje se genera mucho antes de que este se de. Habrá que entrar a valorar como se ejecuta y porque se activa.
-- El robot contacta con el suelo impidiendole avanzar. Posibilidad de incluir una penalización por tocar el suelo.
 
 ### Planteamiento
 
@@ -17,8 +15,10 @@ Se debe resolver los tres problemas propuestos sin perjudicar el funcionamiento 
 
 ### Empuje
 
-Para encontrar el problema por el cual se activa la recompensa de empuje sin empujar o tener un contacto válido comenzmos a realizar un debugging.
+Para encontrar el problema por el cual se activa la recompensa de empuje sin empujar o tener un contacto válido comenzamos a realizar un debugging.
 
 El debugging se centrará en la definición de la función con la cual se valora la recompensa, la cual se encuentra dentro de la carpeta mdp. 
 
 Encontramos que no esta definida la función Squeeze.
+
+Se ha realizado un debugging de la recompensa. Analizando la ejecución del código podemos ver como la lógica de la programación estaba correctamente ejecutada. Esta se desarrollaba sin ninguna incongruencia. Finalmente, se ha detectado que el fallo se encontraba en la propia configuración  del sensor de contacto, ya que detectaba contacto antes de que este se produjese. Esto se solucionó aportando un valor para la variable force threshold de 2.3. Este permitía detectar el contacto y eliminar los falsos positivos.
