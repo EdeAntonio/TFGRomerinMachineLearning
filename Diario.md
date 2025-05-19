@@ -73,6 +73,8 @@
 ### Miercoles 7
 - Problema 1 probado y funcional.
 - Inicio análisis locomoción.
-
 ### Miércoles 14
 - Parcheado del problema del pulling.
+### Lunes 19
+- Investigación Sim2real. Queda pendiente hacer un estudio de los pesos y buscar algún ejemplo concreto bien explicado.
+- Simulación de coger el martillo. Completada.
