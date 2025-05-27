@@ -78,3 +78,5 @@
 ### Lunes 19
 - Investigación Sim2real. Queda pendiente hacer un estudio de los pesos y buscar algún ejemplo concreto bien explicado.
 - Simulación de coger el martillo. Completada.
+### Martes 27
+- Estudio ejemplo Kinova sim2real. Próximo día, entender las entradas en ros2 para utilizar la red neuronal.
