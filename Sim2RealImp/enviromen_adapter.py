@@ -16,16 +16,21 @@ Autor: Enrique de Antonio
 """
 
 import numpy as np
-import PolicyController as pc
-import IRobot as r
-import ObservationHub as oh
 
-class EnviromentAdapter:
+from abc import ABC, abstracmethod
+
+
+class EnviromentAdapter(ABC):
     def __init__(self):
         pass
-    _compute_observation(self) -> NotImplementedError:
-        raise NotImplementedError ("_compute_observation debe ser implementada en la clase específica de 
-            cada entorno")
-    def step  (self, action: np.array) -> np.array
+    
+    @abstracmethod
+    def _compute_observation(self):
         pass
+    
+    @abstracmethod 
+    def step(self):
+        pass
+    
+
     

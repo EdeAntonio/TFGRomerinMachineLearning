@@ -1,0 +1,51 @@
+"""
+UR5simPoly.urp
+
+Implementación del programa en polyscope para el control del Robot en UR script.
+"""
+
+
+# Definimos las variables pertinentes.
+v = 0.25
+a = 0.5
+pose_init = [0, 0, 0, 0, 0, 0]
+ready = False
+write_output_boolean_register(0, False)
+
+def inicio():
+    GLOBAL joints =  pose_init
+    movej(joints, a, v)
+    if joints == get_actual_joint_positions():
+        ready = True
+    end
+end
+
+def updateActionRTDE():
+    action = [0, 0, 0, 0, 0, 0]
+    i=0
+    while i<6:
+        action[i] = read_input_float_register(i)
+        i += 1
+    end
+    return action
+end
+
+# Definicion del programa principal.
+def main_program():
+    while ready == False or get_digital_in(2) == False:
+        inicio()
+    end
+    while get_digital_in(2) == False:
+        sync()
+        if read_input_integer_register(0) == 1:
+            joints = updateActionRTDE()
+            movej(joints, a, v)
+        end
+    end
+end
+
+main_program()
+
+
+    
+

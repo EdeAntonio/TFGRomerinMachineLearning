@@ -91,10 +91,3 @@ class PolicyController:
             obs = torch.from_numpy(obs).view(1, -1).float()
             action = self.policy(obs).detach().view(-1).numpy()
         return action
-
-    def forward(self) -> NotImplementedError:
-        """Return the next command, must be overridden."""
-
-        raise NotImplementedError(
-            "Forward needs to be implemented to compute and apply robot control from observations"
-        )
