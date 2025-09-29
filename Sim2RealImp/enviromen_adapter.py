@@ -19,17 +19,40 @@ import numpy as np
 
 from abc import ABC, abstracmethod
 
+from PolicyController import PolicyController
+from Utils import EnvState
+from IRobot import IRobot
 
 class EnviromentAdapter(ABC):
-    def __init__(self):
-        pass
-    
-    @abstracmethod
-    def _compute_observation(self):
-        pass
+
+    def __init__(self, action_scale : np.ndarray, _action_size: int, model_path: str, frecuency: int = 125, robot : IRobot.IRobot):
+        self.controlador = PolicyController()
+        self.model_dir = model_path
+        self.controlador.load_policy(
+            self.model_path / "policy.pt",
+            self.model_path / "env.yaml")
+        self._action_scale = action_scale
+        self._policy_counter = 0
+        self._previous_action = np.zeros(_action_size)
+
+        self.robot = robot
+
+        self.frecuency = frecuency
+
+        self.has_joint_data = False
     
     @abstracmethod 
+    def _compute_observation(self, state: EnvState) -> np.ndarray:
+        pass
+
+    @abstracmethod
+    def _update_state(self):
+        pass 
+    
+
     def step(self):
+        self._update_state()
+        self.obs=self._compute_observation()
         pass
     
 

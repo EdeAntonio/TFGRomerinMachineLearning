@@ -28,3 +28,8 @@ def list_to_setp(sp, list: np.ndarray):
     for i in range(0, len(list)):
         sp.__dict__["input_double_register_%i" % i] = list(i)
 
+@dataclass
+class EnvState:
+    # Representa el estado de cualquier robot. De esta clase heredan luego los ditintos tipos de robot
+    robot: RobotState
+    #SensorHub
