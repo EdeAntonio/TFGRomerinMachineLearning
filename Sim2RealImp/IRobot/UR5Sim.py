@@ -24,6 +24,7 @@ class UR5Sim(ir.IRobot):
         
         # Asignación de variables iniciales
         super().__init__(ip, port)
+        self.default_pos = (0,0,0,0,0,0) #actualizar con valor inicial. Ver en código original.
         
         # Nombre del archivo con la configuración del RTDE
         self.config_filename = "UR5Sim_config.xml"

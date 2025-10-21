@@ -1,7 +1,7 @@
 # Procesos de decisión Markov MDP
 ## Procesos Markov
 ### Introducción a los MDPs
-Un MDP es un exosistema de aprendizaje por refuerzo totalmente observable. La mayorí de los problemas sobre AR se pueden formalizar como MDPs.
+Un MDP es un exosistema de aprendizaje por refuerzo totalmente observable. La mayoría de los problemas sobre AR se pueden formalizar como MDPs.
 ### Proceso Markov o Cadena Markov
 Un proceso Markov es un proceso aleatorio que recorre una secuencia de estados, donde los estados son finitos y existe una probabilidad de transicionar de uno a otro. Esta probabilidad se recoge en la matriz de transición Markov.
 ### Matriz de transición Markov
@@ -14,7 +14,7 @@ La matriz de transición comprende todas las probabilidades de pasar de un estad
 ![MatrizTransicionMarkov](../ImagenesRelevantes/MatrizTransicionMarkov.png)
 
 ## Proceso de recompensa Markov
-Un proceso de recompensa Markov es un proceso markov con valores. El proceso de recompens Markov contiene estados finitos S, matriz de probabilidad P, función de recompensa R y factor de descuento dto.
+Un proceso de recompensa Markov es un proceso markov con valores. El proceso de recompensa Markov contiene estados finitos S, matriz de probabilidad P, función de recompensa R y factor de descuento dto.
 ### Retorno.
 El retorno es la recompensa total descontada para un paso de tiempo t tal que:
 

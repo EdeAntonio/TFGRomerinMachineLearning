@@ -20,12 +20,15 @@ import numpy as np
 from abc import ABC, abstracmethod
 
 from PolicyController import PolicyController
-from Utils import EnvState
-from IRobot import IRobot
+from Utils import data
+from IRobot import IRobot as IR
+
 
 class EnviromentAdapter(ABC):
 
-    def __init__(self, action_scale : np.ndarray, _action_size: int, model_path: str, frecuency: int = 125, robot : IRobot.IRobot):
+    state: Utils.data.EnvState
+
+    def __init__(self, action_scale : float, _action_size: int, model_path: str, frecuency: int = 125, robot : IR):
         self.controlador = PolicyController()
         self.model_dir = model_path
         self.controlador.load_policy(
@@ -36,24 +39,40 @@ class EnviromentAdapter(ABC):
         self._previous_action = np.zeros(_action_size)
 
         self.robot = robot
-
+        
         self.frecuency = frecuency
 
         self.has_joint_data = False
     
     @abstracmethod 
-    def _compute_observation(self, state: EnvState) -> np.ndarray:
+    def _compute_observation(self) -> np.ndarray:
         pass
 
     @abstracmethod
     def _update_state(self):
         pass 
     
-
-    def step(self):
-        self._update_state()
-        self.obs=self._compute_observation()
+    @abstracmethod
+    def _compute_action(self, obs: np.ndarray) -> np.ndarray :
         pass
-    
 
-    
+    def step(self) -> int:
+        self._update_state()
+        if has_joint_data == False:
+            print("No hay datos del estado del robot. No se puede avanzar...\n")
+            return -1
+        self.obs = self._compute_observation()
+        if self.obs == None:
+            print("No se ha podido calcular la observación. No se puede avanzar...\n")
+            return -2
+        self.action: np.ndarray = self._compute_action(self.obs)
+        if self.action == None:
+            print("No se ha podido calcular la acción. No se puede avanzar...\n")
+            return -3
+        success = self.robot.send_action(self.action, self.state.robot)
+        if success == True :
+            print("Accion enviada con éxito. Paso completado.")
+            self._policy_counter += 1
+            self._previous_action = self.action
+            return 1
+        

@@ -40,9 +40,7 @@ Los agentes pueden ser del siguiente tipo en función del valor y la política:
 - Value based (basados en valor)
 - Policy based (basados en la política)
 - Actor critic (Crítico): Valora tanto el valor como la política.
-Y según el modelo pueden ser:
-- Model Based
-- Model Free
+Y según el modelo pueden ser: Basados en Modelo | Libres de Modelo.
 
 ## El problema de AR
 Aprendizage por refuerzo es una forma de afrontar la toma de decisiones. En este ámbito encontramos dos vías principales.

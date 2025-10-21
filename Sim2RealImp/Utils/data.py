@@ -32,4 +32,6 @@ def list_to_setp(sp, list: np.ndarray):
 class EnvState:
     # Representa el estado de cualquier robot. De esta clase heredan luego los ditintos tipos de robot
     robot: RobotState
+    object_pos : np.ndarray
+    tool_pos : np.ndarray
     #SensorHub
