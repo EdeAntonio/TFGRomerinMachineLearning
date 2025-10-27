@@ -23,7 +23,7 @@ Para el entorno se definen distintas características:
 
 Una vez definidas las distintas variables del entorno, procedemos a definir dos variables para la simulación sim y terrain.
 
-Por un lado, sim toma valores SimulationCfg, es decir, contiene la configuración de la simulación. Los valores proporcionados indican el paso de tienmpo, 1/120 segundos,  y la resolución (render_interval) que será igual a la decimación.
+Por un lado, sim toma valores SimulationCfg, es decir, contiene la configuración de la simulación. Los valores proporcionados indican el paso de tiempo, 1/120 segundos,  y la resolución (render_interval) que será igual a la decimación.
 
 Por otro lado, se define una variable terrain que define la configuración del terreno sobre la cual se va a trabajar. A continuación, entramos a estudiar la clase y su instanciación.
 
@@ -32,7 +32,8 @@ La clase TerrainCfg viene de la librería [Terrain Importer](https://isaac-sim.g
 En el terreno del ejemplo Ant encontramos distintas instanciaciones. 
 - Prim_Path, define la ruta absoluta del USD del prima del terreno.
 - terrain_type, define el tipo de terreno. Este puede ser "plane", "usd" o "generate"
-- physucs_material, variable la cual define el tipo de material que se va a utilizar. Recordemos que este podía ser de varios tipos, como se ve en los tutorial de [Interactuar con objetos rígidos](TutorialesIsaaclab/T01_InteractuarObjetoRigido.md). Dentro de esta variable se definen sus carateríticas a través de la configuración de cuerpo rígido, indicando las características de la fricción y restitución.
+- collision_group, selecciona el grupo de objetos con el que puede colisionar. Al indicar -1 lo incluye en el grupo primario.
+- physics_material, variable la cual define el tipo de material que se va a utilizar. Recordemos que este podía ser de varios tipos, como se ve en los tutorial de [Interactuar con objetos rígidos](TutorialesIsaaclab/T01_InteractuarObjetoRigido.md). Dentro de esta variable se definen sus carateríticas a través de la configuración de cuerpo rígido, indicando las características de la fricción y restitución.
 - Debug_vis, determina si se pueden visualizar los origenes de los entornos.
 
 ### Escena
